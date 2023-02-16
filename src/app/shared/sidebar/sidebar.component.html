@@ -26,21 +26,21 @@
         </a>
       </li>
   
-      <li routerLink="/ingreso-egreso" class="nav-item">
-        <a class="nav-link">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/ingreso-egreso">
           <i class="menu-icon fa fa-clipboard-list"></i>
           <span class="menu-title">Ingresos y Egresos</span>
         </a>
       </li>
   
-      <li routerLink="/detalle" class="nav-item">
-        <a class="nav-link">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/detalle">
           <i class="menu-icon fa fa-table"></i>
           <span class="menu-title">Detalle</span>
         </a>
       </li>
   
-      <li routerLink="/login" class="nav-item">
+      <li (click)="logout()" class="nav-item">
         <a class="nav-link cursor">
           <i class="menu-icon fa fa-sign-out-alt"></i>
           <span class="menu-title">Cerrar sesión</span>
